@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "sys.h": "c",
+        "freertos.h": "c",
+        "freertos_demo.h": "c"
+    }
+}

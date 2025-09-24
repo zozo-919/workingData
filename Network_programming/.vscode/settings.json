@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "__locale": "c",
+        "bitset": "c",
+        "unordered_map": "c"
+    }
+}
