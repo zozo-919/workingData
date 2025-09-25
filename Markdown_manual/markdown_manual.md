@@ -151,6 +151,6 @@ flowchart LR
         style A fill:#a55eea, color:#FFFFFF
         style C fill:#e3eaa7,stroke:#b2d3c2,color:#333
 ```
-![flowchart style color 设置对照表](/md1.png)
-![flowchart style color 设置对照表](/md2.png)
-![flowchart style color 设置对照表](/md3.png)
+![flowchart style color 设置对照表](./md1.png)
+![flowchart style color 设置对照表](./md2.png)
+![flowchart style color 设置对照表](./md3.png)

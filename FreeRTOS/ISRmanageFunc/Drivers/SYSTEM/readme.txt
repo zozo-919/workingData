@@ -4,13 +4,3 @@
     3，usart文件夹：存放串口相关代码，支持printf，方便调试。
  
  
-
-                    正点原子 (ALIENTEK)
-                    广州市星翼电子科技有限公司
-                    电话：020-38271790
-                    传真：020-36773971
-
-                    在线视频:www.yuanzige.com
-                    技术论坛:www.openedv.com
-                    公司网址:www.alientek.com
-                    购买地址:openedv.taobao.com 
