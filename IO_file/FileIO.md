@@ -22,7 +22,7 @@ draft: true
     - `lseek()`
 - **每次读写都涉及到用户态到内核态的切换 开销大 效率较低** 
 - ==文件IO工作流程==
-![文件IO工作流程示意图](/picture/io2.png)   
+![文件IO工作流程示意图](./picture/io2.png)   
 
 ### 标准IO（库函数级）
 - **标准IO及相关API介绍**
@@ -46,7 +46,7 @@ draft: true
     - `fputs()`     [fputs（ ）函数解析](/fputs_test.c)
 
 - ==**标准IO工作流程**==
-![标准IO工作流程示意图](/picture/io1.png)
+![标准IO工作流程示意图](./picture/io1.png)
 
 ### 二者核心区别：缓冲
 
@@ -101,10 +101,10 @@ graph TD
             style F fill:#fff3e0   
 ```
 - ==数据流动==
-![数据流动对比图](/picture/io4.png) 
+![数据流动对比图](./picture/io4.png) 
 
 - ==函数转换关系==
-![函数转换关系图](/picture/io3.png) 
+![函数转换关系图](./picture/io3.png) 
 
 ### 系统调用
 - **系统调用**是应用程序与操作系统内核之间的编程接口 用户程序通过系统调用请求内核为其执行特权操作 如文件操作、进程管理、网络通信等
@@ -113,7 +113,7 @@ graph TD
     - 例如：用户程序不能直接读写磁盘
     - 必须通过 `open()`, `read()`, `write()` 等系统调用
 - **CPU特权级别**
-![ CPU特权级别 ](/picture/io5.png) 
+![ CPU特权级别 ](./picture/io5.png) 
 
 - **系统调用工作流程**
 ```mermaid
@@ -173,7 +173,7 @@ sequenceDiagram
         export LD_LIBRARY_PATH=.:$LD_LIBRARY_PATH
         ./myapp
     ```
-    ![命令解析](/picture/io6.png)
+    ![命令解析](./picture/io6.png)
   - **示例说明** 
   假设有以下文件： 
     ```t
@@ -225,8 +225,8 @@ sequenceDiagram
         # 设置库加载器
         export LD_DEBUG=libs  # 调试信息
     ```
-    ![命令解析1](/picture/io7.png)
-    ![命令解析1](/picture/io8.png)
+    ![命令解析1](./picture/io7.png)
+    ![命令解析1](./picture/io8.png)
   - 版本控制
     ```bash
         # 1. 创建带版本号的共享库
@@ -236,8 +236,8 @@ sequenceDiagram
         # 3. 创建通用符号链接
         ln -sf libmylib.so.1 libmylib.so
     ```
-    ![命令解析2](/picture/io9.png)
-    ![命令解析3](/picture/io10.png)
+    ![命令解析2](./picture/io9.png)
+    ![命令解析3](./picture/io10.png)
 - **使用工具和调试**
   - **库管理工具**
     ```bash
@@ -271,7 +271,7 @@ sequenceDiagram
         -  src/   存放源码   [src源码示例1](/Dynamic_library_test/src/math_advanced.c)
         -  inlcude/   存放头文件 [include头文件示例](/Dynamic_library_test/include/Dmathlib.h)
         -  Makefile  编译文件   [Makefile文件示例](/Dynamic_library_test/Makefile)
-    ![目录结构示意图](/picture/io14.png) 
+    ![目录结构示意图](./picture/io14.png) 
 
 
 ### 静态库
@@ -329,7 +329,7 @@ sequenceDiagram
             # ar rcs 等价于 ar rc + ranlib
         ```
 - **静态库与动态库对比**
-![静态库与动态库对比](/picture/io11.png) 
+![静态库与动态库对比](./picture/io11.png) 
 
 - **静态库完整示例**
   - **目录结构**
@@ -338,7 +338,7 @@ sequenceDiagram
         -  src/   存放源码   [src源码示例](/Static_library_test/src/mathlib.c)
         -  inlcude/   存放头文件 [include头文件示例](/Static_library_test/include/mathlib.h)
         -  Makefile  编译文件   [Makefile文件示例](/Static_library_test/Makefile)
-    ![目录结构示意图](/picture/io12.png) 
+    ![目录结构示意图](./picture/io12.png) 
     - **Makefile文件解析**
     以 [Makefile文件示例](/Static_library_test/Makefile) 为参考
       - **编译器和工具**    定义常用的工具命令，方便修改和维护

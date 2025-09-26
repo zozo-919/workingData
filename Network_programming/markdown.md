@@ -146,10 +146,10 @@
     
 * **TCP三次握手**
 
-![三次握手过程](/picture/three-packet_handshake.PNG)
+![三次握手过程](./picture/three-packet_handshake.PNG)
 
 * **四次挥手**
-![四次挥手](picture/four-way_handshake.PNG)
+![四次挥手](./picture/four-way_handshake.PNG)
 
 ### TCP开发常用函数
 * **socket**
@@ -200,7 +200,7 @@
 
 
 ### UDP通信流程
-![UDP](/picture/UDP.PNG)
+![UDP](./picture/UDP.PNG)
 
 ### 守护进程
 [守护进程说明文档请参考](/socket_test/deamon_and_multiplex/daemon_test.c "daemon_test.c tcp_server.c tcp_client.c")

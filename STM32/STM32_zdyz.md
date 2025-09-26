@@ -49,22 +49,22 @@ HAL¿â£º¼´Ó²¼þ³éÏó²ã ÊÇST¹«Ë¾ÎªSTM32ÏµÁÐÎ¢¿ØÖÆÆ÷ÍË³öµÄÒ»¸öÈí¼þ¿ª·¢¿â HAL¿âµÄÄ¿µÄÊ
 -  **GPIO°ËÖÖ¹¤×÷Ä£Ê½**
    - ËÄÖÖÊäÈë£º
       1. ¸¡¿ÕÊäÈë - ¹Ø±ÕÄÚ²¿ÉÏÏÂÀ­µç×è ¶ÁÒý½ÅµçÆ½ ×´Ì¬²»È·¶¨
-      ![¸¡¿ÕÊäÈëGPIOÄÚ²¿×´Ì¬ ](/picture/3.PNG)
+      ![¸¡¿ÕÊäÈëGPIOÄÚ²¿×´Ì¬ ](./picture/3.PNG)
       2. ÉÏÀ­ÊäÈë - ´ò¿ªÄÚ²¿ÉÏÀ­µç×è ¶ÁÒý½ÅµçÆ½ Ä¬ÈÏÎª¸ßµçÆ½
-      ![ ](/picture/4.PNG)
+      ![ ](./picture/4.PNG)
       3. ÏÂÀ­ÊäÈë - ´ò¿ªÄÚ²¿ÏÂÀ­µç×è ¶ÁÒý½ÅµçÆ½ Ä¬ÈÏÎªµÍµçÆ½
-      ![ ](/picture/5.PNG)
+      ![ ](./picture/5.PNG)
       4. Ä£Äâ¹¦ÄÜ - GPIO¼Ä´æÆ÷¿ØÖÆÊäÈëÊä³öÎÞÐ§ ÓÉADC¡¢DAC¿ØÖÆ
-      ![ ](/picture/6.PNG) 
+      ![ ](./picture/6.PNG) 
    - ËÄÖÖÊä³ö£º
       1. ¿ªÂ©Êä³ö £º Òý½Å¿ÉÊä³ö¸ß×èÌ¬¡¢µÍµçÆ½
-      ![ ](/picture/7.PNG)
+      ![ ](./picture/7.PNG)
       2. ÍÆÍìÊä³ö £º Òý½Å¿ÉÊä³ö¸ßµçÆ½¡¢µÍµçÆ½
-      ![ ](/picture/8.PNG)
+      ![ ](./picture/8.PNG)
       3. ¿ªÂ©Ê½¸´ÓÃ¹¦ÄÜ£ºÓÉÆäËûÆ¬ÉÏÍâÉè¿ØÖÆÊä³ö£¬Òý½Å¿ÉÊä³ö¸ß×èÌ¬¡¢µÍµçÆ½
-      ![ ](/picture/9.PNG)
+      ![ ](./picture/9.PNG)
       4. ÍÆÍìÊ½¸´ÓÃ¹¦ÄÜ£ºÓÉÆäËûÆ¬ÉÏÍâÉè¿ØÖÆÊä³ö£¬Òý½Å¿ÉÊä³ö¸ßµçÆ½¡¢µÍµçÆ½
-      ![ ](/picture/10.PNG) 
+      ![ ](./picture/10.PNG) 
 - **GPIOÊä³öÅäÖÃ²½Öè**
   1. Ê¹ÄÜÊ±ÖÓ £º `_HAL_RCC_GPIOx_CLK_ENABLE()`
   2. ÉèÖÃ¹¤×÷Ä£Ê½£º`HAL_GPIO_Init()`
@@ -76,7 +76,7 @@ HAL¿â£º¼´Ó²¼þ³éÏó²ã ÊÇST¹«Ë¾ÎªSTM32ÏµÁÐÎ¢¿ØÖÆÆ÷ÍË³öµÄÒ»¸öÈí¼þ¿ª·¢¿â HAL¿âµÄÄ¿µÄÊ
 - **¼ÌµçÆ÷Ä£¿é½éÉÜ**
 - STM32ÊÇ3.3VÖ±Á÷ÏµÍ³ µÆÅÝÊÇ220V ½»Á÷ÏµÍ³ ÏëÒªÊµÏÖ¿ØÖÆ¹ØÏµ Ðè½èÖúÃ½½é - ¼´¼ÌµçÆ÷Ä£¿é
 - ¼ÌµçÆ÷×÷ÓÃ£ºÈõµç¿ØÖÆÇ¿µç ¼´£ºÐ¡µçÁ÷¿ØÖÆ´óµçÁ÷¡¢Ö±Á÷µç¿ØÖÆ½»Á÷µç ÊµÏÖµçÂ·µÄ¸ôÀë
-![¼ÌµçÆ÷¹¤×÷Ô­Àí](/picture/11.PNG)
+![¼ÌµçÆ÷¹¤×÷Ô­Àí](./picture/11.PNG)
 
 #### µçÔ´Òý½Å
 - VSSA¡¢VDDA - Ä£ÄâµçÔ´
@@ -102,7 +102,7 @@ HAL¿â£º¼´Ó²¼þ³éÏó²ã ÊÇST¹«Ë¾ÎªSTM32ÏµÁÐÎ¢¿ØÖÆÆ÷ÍË³öµÄÒ»¸öÈí¼þ¿ª·¢¿â HAL¿âµÄÄ¿µÄÊ
   - **ÏµÍ³´æ´¢Æ÷**£ºÐ¾Æ¬³ö³§Ê±Ô¤ÖÃµÄÒ»¶ÎÖ»¶ÁµÄBootloader³ÌÐò¡£Õâ¸ö³ÌÐòÓÉÐ¾Æ¬Ô­³§±àÐ´£¬ÓÃÓÚÍ¨¹ýÄ³ÖÖ´®ÐÐÍ¨ÐÅ£¨ÈçUSART¡¢USB¡¢CANµÈ£©À´½ÓÊÕÐÂ³ÌÐò²¢ÉÕÐ´µ½Ö÷FlashÖÐ¡£
   - **ÄÚÖÃSRAM**£ºÒ×Ê§ÐÔ´æ´¢Æ÷£¬¶ÏµçºóÊý¾Ý¶ªÊ§£¬Í¨³£²»ÓÃÓÚ´æ´¢³ÌÐò£¬µ«Ò²¿ÉÒÔ×÷ÎªÆô¶¯½éÖÊÓÃÓÚÌØÊâµ÷ÊÔ¡£
 - **BOOTÒý½ÅµÄ×÷ÓÃ£¬¾ÍÊÇÔÚÐ¾Æ¬Æô¶¯µÄË²¼ä£¬¾ö¶¨CPUÊÇÈ¥Ö´ÐÐÖ÷FlashÀïµÄÓÃ»§³ÌÐò£¬»¹ÊÇÈ¥Ö´ÐÐÏµÍ³´æ´¢Æ÷ÀïµÄ³ö³§Bootloader**¡£
-![boot Òý½Å×Ü½á](/picture/2.png)
+![boot Òý½Å×Ü½á](./picture/2.png)
      
 ### ÖÐ¶Ï
 - **ÖÐ¶Ï**£º ´ò¶ÏCPUÖ´ÐÐÕý³£³ÌÐò ×ª¶ø´¦Àí½ô¼±³ÌÐò È»ºó·µ»Ø±»´ò¶ÏµÄ³ÌÐò´¦¼ÌÐøÖ´ÐÐ
@@ -117,7 +117,7 @@ HAL¿â£º¼´Ó²¼þ³éÏó²ã ÊÇST¹«Ë¾ÎªSTM32ÏµÁÐÎ¢¿ØÖÆÆ÷ÍË³öµÄÒ»¸öÈí¼þ¿ª·¢¿â HAL¿âµÄÄ¿µÄÊ
   - ×ÔÈ»ÓÅÏÈ¼¶£ºµ±ÇÀ**Õ¼ºÍÏìÓ¦ÓÅÏÈ¼¶¶¼ÏàÍ¬** °´ÖÐ¶ÏÏòÁ¿±íµÄÓÅÏÈ¼¶ÅÅÐò
 - ÒÔÉÏÈýÖÖÓÅÏÈ¼¶¶¼ÊÇ ==**ÊýÖµÔ½Ð¡ ÓÅÏÈ¼¶Ô½¸ß**==
 - Ã¿¸öÖÐ¶ÏµÄÅÅ¶ÓÐòºÅÐÅÏ¢°üÀ¨£ºÇÀÕ¼ + ÏìÓ¦ + ×ÔÈ»
-![ÖÐ¶ÏÓÅÏÈ¼¶·Ö×é](/picture/12.PNG)
+![ÖÐ¶ÏÓÅÏÈ¼¶·Ö×é](./picture/12.PNG)
 - **NVICµÄÊ¹ÓÃ**
   - ÉèÖÃÖÐ¶Ï·Ö×é: `HAL_NVIC_SetPriorityGrouping()`
   - ÉèÖÃÖÐ¶ÏÓÅÏÈ¼¶: `HAL_NVIC_SetPriority()`
@@ -130,13 +130,13 @@ HAL¿â£º¼´Ó²¼þ³éÏó²ã ÊÇST¹«Ë¾ÎªSTM32ÏµÁÐÎ¢¿ØÖÆÆ÷ÍË³öµÄÒ»¸öÈí¼þ¿ª·¢¿â HAL¿âµÄÄ¿µÄÊ
     - ÖÐ¶ÏºÍÊÂ¼þ
       - ÖÐ¶Ï£º·¢ÉúÊÂ¼þ²¢ÏòNVICÌá³öÖÐ¶ÏÇëÇó CPU½øÈëÖÐ¶Ï·þÎñº¯Êý´¦Àí
       - ÊÂ¼þ£º·¢ÉúÊÂ¼þ²»»áÍ¨ÖªNVIC ÄÚ²¿ÆäËüÍâÉè¿É¶Ô¸ÃÊÂ¼þ½øÐÐÏìÓ¦ ¸Ã¹ý³Ì²»ÐèÒªCPU²ÎÓë ÊôÓÚÍâÉè¼äÁªºÏ¹¤×÷£¨ºÜÉÙÓÃ£©
-![ÖÐ¶ÏÁ÷³Ì¿òÍ¼](/picture/13.PNG)
-![ÖÐ¶ÏÔ´±àºÅ-¶ÔÓ¦ÖÐ¶Ï·þÎñº¯Êý](/picture/18.PNG)
-![EXTI¹¤×÷Á÷³Ì](/picture/15.PNG) 
+![ÖÐ¶ÏÁ÷³Ì¿òÍ¼](./picture/13.PNG)
+![ÖÐ¶ÏÔ´±àºÅ-¶ÔÓ¦ÖÐ¶Ï·þÎñº¯Êý](./picture/18.PNG)
+![EXTI¹¤×÷Á÷³Ì](./picture/15.PNG) 
 - AFIO ¼´¸´ÓÃ¹¦ÄÜIO£ºµ÷ÊÔIOÅäÖÃ¡¢Íâ²¿ÖÐ¶ÏIOÑ¡ÔñÅäÖÃ¡¢ÖØÓ³ÉäÅäÖÃ
   - ÅäÖÃAFIO¼Ä´æÆ÷Ç°ÒªÊ¹ÄÜAFIOÊ±ÖÓ£º`__HAL_RCC_AFIO_CLK_ENABLE()`
-![EXTIÓëIO¶ÔÓ¦¹ØÏµ](/picture/16.PNG) 
-![EXTI¿òÍ¼](/picture/17.PNG)
+![EXTIÓëIO¶ÔÓ¦¹ØÏµ](./picture/16.PNG) 
+![EXTI¿òÍ¼](./picture/17.PNG)
 - **EXTIÅäÖÃ²½Öè** 
   1. Ê¹ÄÜGPIOÊ±ÖÓ£º`__HAL_RCC_GPIOx_CLK_ENABLE()`
   2. GPIO/AFIO/EXTI£º`HAL_GPIO_Init()` Ò»²½µ½Î»
@@ -155,7 +155,7 @@ HAL¿â£º¼´Ó²¼þ³éÏó²ã ÊÇST¹«Ë¾ÎªSTM32ÏµÁÐÎ¢¿ØÖÆÆ÷ÍË³öµÄÒ»¸öÈí¼þ¿ª·¢¿â HAL¿âµÄÄ¿µÄÊ
     - µÍËÙÍâ²¿Õñµ´Æ÷£¨LSE£© -  ÆµÂÊ£º32.768KHz 
     - ¸ßËÙÄÚ²¿Õñµ´Æ÷£¨HSI£© -  ÆµÂÊ£º8MHz
     - µÍËÙÄÚ²¿Õñµ´Æ÷£¨LSI£© -  ÆµÂÊ£º40KHz
-![Ê±ÖÓÊ÷¼òÍ¼](/picture/19.PNG)
+![Ê±ÖÓÊ÷¼òÍ¼](./picture/19.PNG)
   - Ê±ÖÓÔ´¡¢PLL(ËøÏà»·): `HAL_RCC_OscConfig()`
   - ÏµÍ³Ê±ÖÓ£¨SYSCLK£©¡¢×ÜÏß£¨AHB¡¢APB1¡¢APB2£©£º`HAL_RCC_ClockConfig()`
   - Ê¹ÄÜÍâÉèÊ±ÖÓ£º `__HAL_RCC_PPP_CLK_ENABLE()`
@@ -176,30 +176,30 @@ HAL¿â£º¼´Ó²¼þ³éÏó²ã ÊÇST¹«Ë¾ÎªSTM32ÏµÁÐÎ¢¿ØÖÆÆ÷ÍË³öµÄÒ»¸öÈí¼þ¿ª·¢¿â HAL¿âµÄÄ¿µÄÊ
   - **Òý½Å** 
   - **²¨ÌØÂÊ£º** Ã¿Ãë´«ÊäµÄÎ»Êý ´«ÊäË«·½ÒªÊ¹ÓÃÏàÍ¬µÄ²¨ÌØÂÊ
     - Ã¿Ò»Î»µÄ´«ÊäÊ±¼ä¼ä¸ô = 1/²¨ÌØÂÊ£¨µ¥Î»s£©Èç£º1/115200 
-    ![²¨ÌØÂÊ](/picture/20.PNG)
+    ![²¨ÌØÂÊ](./picture/20.PNG)
   - **×Ö³¤£º** Ã¿´Î´«ÊäµÄÊý¾ÝÎ»Êý ´«ÊäË«·½ÒªÊ¹ÓÃÏàÍ¬µÄ×Ö³¤
     - 8Î» »ò 9Î»£¨´îÅäÐ£ÑéÎ»Ê¹ÓÃ£©
-  ![×Ö³¤](/picture/21.PNG) 
+  ![×Ö³¤](./picture/21.PNG) 
   - **Ð£Ñé·½Ê½£º** ÎªÈ·±£Êý¾Ý×¼È·ÐÔ ´«ÊäË«·½¿ÉÔ¼¶¨Êý¾ÝÐ£ÑéµÄ·½Ê½
     - ÎÞÐ£Ñé
     - ÆæÐ£Ñé
-    ![ÆæÐ£Ñé](/picture/22.PNG) 
+    ![ÆæÐ£Ñé](./picture/22.PNG) 
     - Å¼Ð£Ñé
-    ![Å¼Ð£Ñé](/picture/23.PNG)
+    ![Å¼Ð£Ñé](./picture/23.PNG)
   - **Í£Ö¹Î»£º** ÓÃÓÚ±êÊ¶Êý¾Ý°üµÄ½áÊø È·±£½ÓÊÕ¶ËÓÐ×ã¹»µÄÊ±¼ä´¦Àí½ÓÊÕµ½µÄÊý¾Ý
     - Í£Ö¹Î»¿ÉÑ¡£º0.5Î» 1Î» 1.5Î» 2Î» Ò»°ãÓÃ1Î»»ò2Î» 
       - ±ÈÈç²¨ÌØÂÊÎª9600 ÄÇÃ´2Î»Í£Ö¹Î» ¾ÍÊÇ£¨1/9600£© * 2 
-    ![Í£Ö¹Î»](/picture/24.PNG)  
+    ![Í£Ö¹Î»](./picture/24.PNG)  
   - **Ó²¼þÁ÷¿Ø£º** ·´À¡½ÓÊÕ¶ËÊÇ·ñ¾ÍÐ÷ ±ÜÃâ·¢ËÍµÄÊý¾Ý¶ªÊ§
     - ¶àÒ»ÌõÁ¬½ÓÏß `CTS --- RTS` 
-    ![Ó²¼þÁ÷¿Ø1](/picture/25.PNG)
-    ![Ó²¼þÁ÷¿Ø2](/picture/26.PNG)
+    ![Ó²¼þÁ÷¿Ø1](./picture/25.PNG)
+    ![Ó²¼þÁ÷¿Ø2](./picture/26.PNG)
   - **Ä£Ê½£º** Êý¾ÝµÄ½ÓÊÕºÍ·¢ËÍ¹¦ÄÜ¶¼¿ÉÒÔµ¥¶À¿ªÊ¼»ò¹Ø±Õ
     - ½ö·¢ËÍ
     - ½ö½ÓÊÕ
     - ÊÕ·¢
 - USART´®¿ÚµÄÊý¾ÝÊÕ·¢ÊÇÍ¨¹ý**¶ÁÐ´DRÊý¾Ý¼Ä´æÆ÷**ÊµÏÖµÄ
-![Êý¾ÝÊÕ·¢Í¼Ê¾](/picture/27.PNG)
+![Êý¾ÝÊÕ·¢Í¼Ê¾](./picture/27.PNG)
 - **´®¿Ú·¢ËÍÅäÖÃ²½Öè**
   - ³õÊ¼»¯GPIOxÊ±ÖÓ£º   `__HAL_RCC_GPIOx_CLK_ENABLE()`
     - GPIOx¿ÉÎª£ºGPIOA / GPIOB /GPIOC / ...
@@ -222,7 +222,7 @@ HAL¿â£º¼´Ó²¼þ³éÏó²ã ÊÇST¹«Ë¾ÎªSTM32ÏµÁÐÎ¢¿ØÖÆÆ÷ÍË³öµÄÒ»¸öÈí¼þ¿ª·¢¿â HAL¿âµÄÄ¿µÄÊ
     - ½øÈë`USART1_IRQHandler`º¯Êý ÅÐ¶ÏÊÇ·ñÎª½ÓÊÕÖÐ¶Ï£º`__HAL_UART_GET_FLAG()`
     - ½ÓÊÕÊý¾Ý£º`HAL_UART_Receive()`
 - **´®¿Ú½ÓÊÕÊý¾Ý°ü**
-![´®¿Ú½ÓÊÕÊý¾Ý°üÊ¾Àý](/picture/28.PNG)
+![´®¿Ú½ÓÊÕÊý¾Ý°üÊ¾Àý](./picture/28.PNG)
 - **´®¿Ú¿ÕÏÐÖÐ¶Ï£º**
   - ×÷ÓÃ£ºÓÃÓÚÅÐ¶ÏÊý¾Ý°üÊÇ·ñ½ÓÊÕÍê³É
   - ½øÈëÖÐ¶ÏµÄÊ±»ú£º´®¿Ú¿ªÊ¼½ÓÊÕÊý¾Ýºó Èç¹û¸ôÒ»¶ÎÊ±¼äÃ»½ÓÊÕµ½ÐÂµÄÊý¾Ý  Ôò½øÈë¿ÕÏÐÖÐ¶Ï
@@ -236,27 +236,27 @@ HAL¿â£º¼´Ó²¼þ³éÏó²ã ÊÇST¹«Ë¾ÎªSTM32ÏµÁÐÎ¢¿ØÖÆÆ÷ÍË³öµÄÒ»¸öÈí¼þ¿ª·¢¿â HAL¿âµÄÄ¿µÄÊ
 
 ### DMA¿ØÖÆÆ÷£¨ÍâÉè£©
 - DMA - Ö±½Ó´æ´¢Æ÷·ÃÎÊ£¬¿ÉÒÔÔÚ**´æ´¢Æ÷ºÍ´æ´¢Æ÷Ö®¼ä**»ò**ÍâÉèºÍ´æ´¢Æ÷Ö®¼ä**½øÐÐ**¸ßËÙÊý¾Ý´«Êä** ÆäÊý¾Ý´«Êä¹ý³Ì**²»ÐèÒªCPU¸ÉÔ¤**
-![DMAÊý¾Ý´«Êä](/picture/29.PNG) 
+![DMAÊý¾Ý´«Êä](./picture/29.PNG) 
 - **DMAÍâÉè¹Ø¼üÖªÊ¶**
   - **Í¨µÀ£º** ÒÔÕýµãÔ­×ÓÊ¹ÓÃµÄMCUÎªÀý ½öÖ§³ÖDMA1Í¨µÀ 1¡«7
-    ![Í¨µÀÑ¡Ôñ](/picture/30.PNG) 
+    ![Í¨µÀÑ¡Ôñ](./picture/30.PNG) 
   - ÓÅÏÈ¼¶£ºµ±¶à¸öÍ¨µÀÍ¬Ê±´¥·¢´«ÊäÇëÇó ÖÙ²ÃÆ÷»á¸ù¾ÝÍ¨µÀÓÅÏÈ¼¶À´Æô¶¯´«Êä
-    ![ÓÅÏÈ¼¶´¦ÀíÂß¼­](/picture/31.PNG) 
+    ![ÓÅÏÈ¼¶´¦ÀíÂß¼­](./picture/31.PNG) 
   - **·½Ïò£º** ´æ´¢Æ÷ºÍ´æ´¢Æ÷Ö®¼ä¡¢ÍâÉèºÍ´æ´¢Æ÷Ö®¼ä
   - **µØÖ·£º** ÔÚDMAÊý¾Ý´«ÊäÖ®Ç° ÓÃ»§ÐèÒªÖ¸¶¨Êý¾ÝµÄÆðÔ´µØÖ·ºÍÄ¿µÄµØÖ·
-  ![µØÖ·ÉèÖÃ](/picture/32.PNG)
+  ![µØÖ·ÉèÖÃ](./picture/32.PNG)
   - **µØÖ·ÔöÁ¿£º** ÔÚDMAÊý¾Ý´«ÊäÖ®Ç° ÓÃ»§¿ÉÒÔÉè¶¨Êý¾ÝµÄÆðÔ´µØÖ·ºÍÄ¿µÄµØÖ·ÊÇ·ñ×ÔÔö £¨Ò»°ã£ºÍâÉèµØÖ·²»×ÔÔö ¼Ä´æÆ÷µØÖ·×ÔÔö£©
-  ![Ë«·½×ÔÔö](/picture/33.PNG)
-  ![Ò»·½×ÔÔö](/picture/34.PNG) 
+  ![Ë«·½×ÔÔö](./picture/33.PNG)
+  ![Ò»·½×ÔÔö](./picture/34.PNG) 
   - **Êý¾Ý¿í¶È£º** ÔÚDMAÊý¾Ý´«ÊäÖ®Ç° ÓÃ»§ÐèÒªÖ¸¶¨´«ÊäË«·½µÄÊý¾Ý¿í¶È £¨8 / 16 / 32 Î»£© ¾¡Á¿±£³ÖË«·½Êý¾Ý¿í¶ÈÒ»ÖÂ
   - **Êý¾ÝÁ¿**£º£¨¿ÉÒÔÀí½âÎª¼ÆÊýÆ÷£©ÔÚDMAÊý¾Ý´«ÊäÖ®Ç° ÓÃ»§ÐèÒªÖ¸¶¨´«ÊäµÄÊý¾ÝÁ¿ ¿ÉÑ¡ **0¡«65535**  ??ÖØÐÂÅäÖÃÊý¾ÝÁ¿Ö®Ç° ÐèÏÈ¹Ø±ÕDMAÍ¨µÀ
-  ![Êý¾ÝÁ¿µÄÊ¹ÓÃ](/picture/35.PNG) 
+  ![Êý¾ÝÁ¿µÄÊ¹ÓÃ](./picture/35.PNG) 
   - **Ä£Ê½**
     - Õý³£Ä£Ê½£ºµ¥´Î´«ÊäÍê³ÉºóÍ£Ö¹´«Êä ²»×Ô¶¯ÖØÖÃÊý¾ÝÁ¿
     - Ñ­»·Ä£Ê½£ºµ¥´Î´«ÊäÍê³Éºó ×Ô¶¯ÖØÖÃÊý¾ÝÁ¿ ÔÙ´Î¿ªÊ¼´«Êä (**´æ´¢Æ÷µ½´æ´¢Æ÷·½Ïò²»ÔÊÐíÊ¹ÓÃÑ­»·Ä£Ê½**)
   - **´¥·¢Ô´**£ºDMA´«ÊäÉúÐ§±ØÐëÒªÓÐ´¥·¢Ô´£¨ÇëÇó£©£¬Æä·ÖÎªÈí¼þ´¥·¢ºÍÓ²¼þ´¥·¢ £¨²»ÓÃ×Ô¼ºÅäÖÃ£©
-  ![Èí¼þ´¥·¢](/picture/36.PNG)
-  ![Ó²¼þ´¥·¢](/picture/37.PNG) 
+  ![Èí¼þ´¥·¢](./picture/36.PNG)
+  ![Ó²¼þ´¥·¢](./picture/37.PNG) 
   - **´«Êä×´Ì¬** 
     - ´«Êä¹ý°ë¡¢´«ÊäÍê³É¡¢´«Êä´íÎó  
 - **´æ´¢Æ÷µ½´æ´¢Æ÷** DMAÅäÖÃ²½Öè£¨ÒÔDMA1ÎªÀý£©
@@ -278,28 +278,28 @@ HAL¿â£º¼´Ó²¼þ³éÏó²ã ÊÇST¹«Ë¾ÎªSTM32ÏµÁÐÎ¢¿ØÖÆÆ÷ÍË³öµÄÒ»¸öÈí¼þ¿ª·¢¿â HAL¿âµÄÄ¿µÄÊ
 - ½«Ä£ÄâÁ¿×ª»»ÎªÊý×ÖÁ¿µÄÆ÷¼þ ¿ÉÓÃÓÚ²âÁ¿Ö±Á÷µçÔ´µçÑ¹ ¿É²âµçÑ¹£º0¡«3.3v£¨°å×Ó¾ö¶¨£© ·Ö±æÂÊ£º12Î» ·Ö±æÂÊ¾ö¶¨ADCÖµµÄ·¶Î§£º0 ¡«£¨2^12 - 1£©¼´ 0¡«4096 
 - **ADCÍâÉèµÄ¹Ø¼üÖªÊ¶µã** £¨ÒÔSTM32F103C8T6ÎªÀý ADCµÄÊ±ÖÓ×î´óÖ§³Ö14MHz£©
   - Ê±ÖÓ
-    ![Ê±ÖÓÆµÂÊ](/picture/39.PNG) 
+    ![Ê±ÖÓÆµÂÊ](./picture/39.PNG) 
   - Í¨µÀ
-    ![Í¨µÀ](/picture/40.PNG) 
+    ![Í¨µÀ](./picture/40.PNG) 
   - Í¨µÀ·Ö×é£º
-  ![Í¨µÀ·Ö×é](/picture/41.PNG)
-  ![¹æÔò×é](/picture/42.PNG)
+  ![Í¨µÀ·Ö×é](./picture/41.PNG)
+  ![¹æÔò×é](./picture/42.PNG)
   - É¨ÃèÄ£Ê½Á¬Ðø×ª»»£ºADCµÄÉ¨ÃèÄ£Ê½ºÍÁ¬Ðø×ª»»Ä£Ê½¶¼¿ÉÒÔµ¥¶À¿ªÆôºÍ¹Ø±Õ ÒÔ×éºÏ³ö²»Í¬µÄ²É¼¯Ð§¹û
-  ![Çé¿ö1](/picture/43.PNG)
-  ![Çé¿ö2](/picture/44.PNG)
-  ![](/picture/45.PNG)
-  ![](/picture/46.PNG)
+  ![Çé¿ö1](./picture/43.PNG)
+  ![Çé¿ö2](./picture/44.PNG)
+  ![](./picture/45.PNG)
+  ![](./picture/46.PNG)
   - Êý¾Ý¶ÔÆë£º ×ó¶ÔÆë¡¢ÓÒ¶ÔÆë£¨ÓÃµÄ¶à£©
-  ![¶ÔÆë·½Ê½](/picture/47.PNG) 
+  ![¶ÔÆë·½Ê½](./picture/47.PNG) 
   - ´¥·¢·½Ê½£º
     - **Èí¼þ´¥·¢£º** ´¿Èí¼þ¿ØÖÆ Èí¼þÊ¹ÄÜADCºÍ×ª»»¼´¿É£¨ÓÃµÄ¶à£©
     - ¶¨Ê±Æ÷´¥·¢£º¶¨Ê±Æ÷ÍâÉèµÄÄÚ²¿ÐÅºÅ´¥·¢×ª»»
     - EXTIÏß £ºÍâ²¿Òý½ÅµÄÐÅºÅ´¥·¢×ª»»
   - ADC²ÉÑùÊ±¼ä£º ²ÉÑùÊ±¼äÔ½³¤ Êý¾ÝÏà¶ÔÔ½×¼È· ÓÃ»§¿É¸ù¾ÝÐèÇóÑ¡Ôñ²ÉÑùÊ±¼ä
-    ![µ¥Í¨µÀ²ÉÑùÊ±¼äËã·¨](/picture/48.PNG)
+    ![µ¥Í¨µÀ²ÉÑùÊ±¼äËã·¨](./picture/48.PNG)
   - Êý¾Ý¶ÁÈ¡£ºADCÍ¨µÀ×ª»»Íê³Éºó ÓÃ»§¿É´ÓADCµÄDRÊý¾Ý¼Ä´æÆ÷ÖÐ¶ÁÈ¡Êý¾Ý
 £¨ÖµµÄ×¢ÒâµÄÊÇ¡£µ±ÓÐ¶àÍ¨µÀ²É¼¯Ê±¡£ÐèÒª´îÅäDMAÀ´Ñ¸ËÙ°áÔËÊý¾Ý ÒÔÃâÔì³ÉÊý¾Ý¶ªÊ§£© 
-  ![Êý¾Ý¶ÁÈ¡±êÖ¾](/picture/49.PNG)  
+  ![Êý¾Ý¶ÁÈ¡±êÖ¾](./picture/49.PNG)  
 - **ADCµ¥Í¨µÀ²É¼¯ ²½Öè**
   - ³õÊ¼»¯²¿·Ö
     - Ê¹ÄÜGPIOA¡¢ADC1Ê±ÖÓ£º`__HAL_RCC_ADC1_CLK_ENABLE()`
@@ -315,8 +315,8 @@ HAL¿â£º¼´Ó²¼þ³éÏó²ã ÊÇST¹«Ë¾ÎªSTM32ÏµÁÐÎ¢¿ØÖÆÆ÷ÍË³öµÄÒ»¸öÈí¼þ¿ª·¢¿â HAL¿âµÄÄ¿µÄÊ
     - ¼ÆËãµçÑ¹Öµ£º£¨µçÑ¹Öµ = £¨ADCÖµ / 4095£©* 3.3v£©
 
 ### µçÎ»Æ÷Ä£¿é £¨·ÖÑ¹£©
-![µçÎ»Æ÷Ä£¿éÊµÎïÍ¼](/picture/50.PNG)
-![¿Éµ÷µç×è·ÖÑ¹Ô­Àí](/picture/51.PNG)
+![µçÎ»Æ÷Ä£¿éÊµÎïÍ¼](./picture/50.PNG)
+![¿Éµ÷µç×è·ÖÑ¹Ô­Àí](./picture/51.PNG)
 - µçÎ»Æ÷Ä£¿éµçÑ¹¶ÁÈ¡ £¨Ö±½Ó¿ÉÒÔÑ¡ÓÃADCµ¥Í¨µÀ²É¼¯µÄ´úÂë¾ÍÐÐ£©
 
 
@@ -328,7 +328,7 @@ HAL¿â£º¼´Ó²¼þ³éÏó²ã ÊÇST¹«Ë¾ÎªSTM32ÏµÁÐÎ¢¿ØÖÆÆ÷ÍË³öµÄÒ»¸öÈí¼þ¿ª·¢¿â HAL¿âµÄÄ¿µÄÊ
   - Ö÷´ÓÄ£Ê½£ºÖ÷»ú·¢Ö¸Áî£¬´Ó»úÏìÓ¦Ö´ÐÐ£¬´Ó»ú²»ÄÜÖ÷¶¯Í¨ÐÅ
   - Í¬²½Í¨ÐÅ£º×ÜÏßÉè±¸Ê¹ÓÃÍ¬Ò»Ê±ÖÓÐÅºÅ£¬Ð­µ÷Êý¾Ý´«Êä£¬È·±£Ë«·½Í¬²½ÊÕ·¢
   - Ò»Ö÷¶à´ÓÄ£Ê½£ºÉè±¸µØÖ·Í¨¹ýÊý¾ÝÊÖ²á²é¿´ Ò»¸öÖ÷Éè±¸ÉÏ²»¿ÉÒÔÁ¬½ÓÁ½¸öÏàÍ¬Éè±¸µØÖ·µÄ´ÓÉè±¸
-  ![I2CÒ»Ö÷¶à´Ó](/picture/52.PNG) 
+  ![I2CÒ»Ö÷¶à´Ó](./picture/52.PNG) 
   - Èí¼þI2CµÄÓ²¼þÅäÖÃ
     - SCL½ÓSCL,SDA½ÓSDA
     - SCLÅäÖÃÎªÍÆÍìÊä³ö£¬SDAÅäÖÃÎª¿ªÂ©Êä³ö£¬¼ÓÈõÉÏÀ­µç×èµç×è
@@ -336,31 +336,31 @@ HAL¿â£º¼´Ó²¼þ³éÏó²ã ÊÇST¹«Ë¾ÎªSTM32ÏµÁÐÎ¢¿ØÖÆÆ÷ÍË³öµÄÒ»¸öÈí¼þ¿ª·¢¿â HAL¿âµÄÄ¿µÄÊ
     - ÆðÊ¼ÐÅºÅ£ºSCL**¸ßµçÆ½**ÆÚ¼ä SDA´Ó**¸ßµçÆ½**ÇÐ»»µ½**µÍµçÆ½**
     - Í£Ö¹ÐÅºÅ£ºSCL**¸ßµçÆ½**ÆÚ¼ä SDA´Ó**µÍµçÆ½**ÇÐ»»µ½**¸ßµçÆ½**
     - ==**??£º½öÆðÊ¼ÐÅºÅºÍÍ£Ö¹ÐÅºÅ£¬²Å»áÔÚSCL¸ßµçÆ½ÆÚ¼ä£¬¿ØÖÆSDA±ä»¯**==
-    ![ÆðÊ¼ÐÅºÅÓëÍ£Ö¹ÐÅºÅ](/picture/53.PNG) 
+    ![ÆðÊ¼ÐÅºÅÓëÍ£Ö¹ÐÅºÅ](./picture/53.PNG) 
   - **È·¶¨Êý¾ÝÓÐÐ§ÐÔ Óë Êý¾Ý´«Êä**
     - È·¶¨Êý¾ÝÓÐÐ§ÐÔ£ºSCLµÍµçÆ½ÆÚ¼ä È·¶¨Êý¾ÝÓÐÐ§ÐÔ
     - Êý¾Ý´«Êä£º °´Î»·¢ËÍ£¨¸ßÎ»ÔÚÇ°£©£¬ Êý¾ÝÎ»ÔÚSCL¸ßµçÆ½ÆÚ¼äÎÈ¶¨ÓÐÐ§
     - ==**×Ü½á£ºµÍµçÆ½±ä»» ¸ßµçÆ½²É¼¯**==
-    ![Êý¾ÝÈ·¶¨Óë´«Êä](/picture/54.PNG) 
-    ![·¢ËÍ¡¢½ÓÊÕÒ»¸ö×Ö½Ú](/picture/55.PNG)
+    ![Êý¾ÝÈ·¶¨Óë´«Êä](./picture/54.PNG) 
+    ![·¢ËÍ¡¢½ÓÊÕÒ»¸ö×Ö½Ú](./picture/55.PNG)
   - **Ó¦´ðÐÅºÅ£¨ACK/NACK£©1bit**
-  ![Ó¦´ðÐÅºÅ](/picture/56.PNG) 
+  ![Ó¦´ðÐÅºÅ](./picture/56.PNG) 
   - **¿ÕÏÐ×´Ì¬£º** SDAºÍSCLÁ½ÌõÐÅºÅÏßÍ¬Ê±´¦ÓÚ¸ßµçÆ½£¬¹æ¶¨×ÜÏßÎª¿ÕÏÐ×´Ì¬
   - **Ö¸¶¨µØÖ·Ð´**
-  ![Ö¸¶¨µØÖ·Ð´Ê¾Àý](/picture/57.PNG) 
+  ![Ö¸¶¨µØÖ·Ð´Ê¾Àý](./picture/57.PNG) 
   - **Ö¸¶¨µØÖ·¶Á**
-  ![Ö¸¶¨µØÖ·¶ÁÊ¾Àý](/picture/58.PNG)
+  ![Ö¸¶¨µØÖ·¶ÁÊ¾Àý](./picture/58.PNG)
 
 ### EEPROMÄ£¿é
 - EEPROM £º·ÇÒ×Ê§ÐÔ´æ´¢Æ÷ ¶ÏµçºóÊý¾Ý²»¶ªÊ§
   - I2CÍ¨ÐÅ£¬ÊÊºÏ´æ´¢ÉÙÁ¿ÐèÒªµôµç±£´æµÄÊý¾Ý ÊÙÃü³¤
 - ÒÔ `24C02` ÎªÀý
-![EEPROMÄ£¿é¼ò½é](/picture/60.jpeg)
+![EEPROMÄ£¿é¼ò½é](./picture/60.jpeg)
   - `24C02` **Ð´**Ê±ÐòÍ¼Âß¼­ÊµÏÖ
-    ![Ð´Ê±ÐòÍ¼](/picture/61.jpeg)
+    ![Ð´Ê±ÐòÍ¼](./picture/61.jpeg)
   - `24C02` **¶Á**Ê±ÐòÍ¼Âß¼­ÊµÏÖ
-    ![¶ÁÊ±ÐòÍ¼1](/picture/62.jpeg)
-    ![Ð´Ê±ÐòÍ¼2](/picture/63.jpeg)
+    ![¶ÁÊ±ÐòÍ¼1](./picture/62.jpeg)
+    ![Ð´Ê±ÐòÍ¼2](./picture/63.jpeg)
 - ÊµÏÖEEPROMÄ£¿éµÄ¶ÁÐ´
   1. Èí¼þIICÒý½Å³õÊ¼»¯£ºÊ¹ÓÃ**Á½¸öGPIO**¡¢·Ö±ðÄ£Äâ**SDAÊý¾ÝÏß**ºÍ**SCLÊ±ÖÓÏß**
   2. Èí¼þÊµÏÖIICÐ­Òé£ºÆðÊ¼ÐÅºÅ¡¢Í£Ö¹ÐÅºÅ¡¢Ó¦´ðÐÅºÅ¡¢´«ÊäÊý¾Ý
@@ -371,31 +371,31 @@ HAL¿â£º¼´Ó²¼þ³éÏó²ã ÊÇST¹«Ë¾ÎªSTM32ÏµÁÐÎ¢¿ØÖÆÆ÷ÍË³öµÄÒ»¸öÈí¼þ¿ª·¢¿â HAL¿âµÄÄ¿µÄÊ
 - SPI £º**¸ßËÙÍ¬²½´®ÐÐÍ¨ÐÅÐ­Òé**
   - ³£ÓÃÓÚ£º´æ´¢Æ÷¡¢ÏÔÊ¾ÆÁ¡¢´«¸ÐÆ÷µÈ
   - SPI½ÓÏß
-  ![SPIÁ¬½Ó](/picture/64.jpeg)
+  ![SPIÁ¬½Ó](./picture/64.jpeg)
   - SPIÖ÷´ÓÄ£Ê½
-  ![Ò»Ö÷¶à´Ó](/picture/65.jpeg) 
+  ![Ò»Ö÷¶à´Ó](./picture/65.jpeg) 
 - SPIÐ­Òé
   - Êý¾ÝµÄÊÕ·¢ 
-  ![Êý¾ÝÊÕ·¢](/picture/67.jpeg)
+  ![Êý¾ÝÊÕ·¢](./picture/67.jpeg)
   - SPIµÄÒÆ³öºÍÒÆÈëÊý¾Ý
-  ![SPIÊý¾ÝµÄÒÆ³öÒÆÈë](/picture/68.jpeg)
+  ![SPIÊý¾ÝµÄÒÆ³öÒÆÈë](./picture/68.jpeg)
     - Ê±ÐòÄ£Ê½
       - Ä£Ê½0
-        ![Ä£Ê½0](/picture/69.jpeg) 
+        ![Ä£Ê½0](./picture/69.jpeg) 
       - Ä£Ê½1
-        ![Ä£Ê½1](/picture/70.jpeg) 
+        ![Ä£Ê½1](./picture/70.jpeg) 
       - Ä£Ê½2
-        ![Ä£Ê½2](/picture/71.jpeg) 
+        ![Ä£Ê½2](./picture/71.jpeg) 
       - Ä£Ê½3 
-        ![Ä£Ê½3](/picture/72.jpeg)
+        ![Ä£Ê½3](./picture/72.jpeg)
       - SPIÍ¨ÐÅÄ£Ê½ÕæÖµ±í
-        ![Í¨ÐÅÄ£Ê½ÕæÖµ±í](/picture/73.jpeg)
+        ![Í¨ÐÅÄ£Ê½ÕæÖµ±í](./picture/73.jpeg)
 - SPIÍâÉè
   - Ã¿¸öSPI¶¼ÓÐ¶ÔÓ¦µÄÐÅºÅÒý½Å £¨¿´Ð¾Æ¬ÊÖ²á£© 
     - STM32Ã¿¸öSPIÍâÉè½öÓÐÒ»¸ö¹Ì¶¨µÄÓ²¼þNSSÒý½Å
     - Èç¹ûÐèÒª¹ÒÔØ¶à¸ö´ÓÉè±¸ ½ö¿¿Ó²¼þÆ¬Ñ¡ÎÞ·¨Âú×ãÐèÇó
     - ÒÔSTM32F103µÄSPI2ÎªÀý ½øÐÐÒý½ÅµÄ³õÊ¼»¯
-    ![SPI2Òý½ÅµÄ³õÊ¼»¯](/picture/74.jpeg)
+    ![SPI2Òý½ÅµÄ³õÊ¼»¯](./picture/74.jpeg)
   - SPIÄ£Ê½ £¨Í¨ÐÅÖÐµÄ½ÇÉ«£ºÖ÷Éè±¸ or ´ÓÉè±¸£©
     - Ö÷Éè±¸£º¿ØÖÆÍ¨ÐÅÊ±Ðò Ìá¹©Ê±ÖÓÐÅºÅ ·¢ÆðÊý¾Ý´«Êä
     - ´ÓÉè±¸£º±»¶¯µÈ´ýÖ÷Éè±¸·¢ÆðÍ¨ÐÅ °´ÕÕÖ÷Éè±¸Ê±ÖÓÐÅºÅÊÕ·¢Êý¾Ý
@@ -409,7 +409,7 @@ HAL¿â£º¼´Ó²¼þ³éÏó²ã ÊÇST¹«Ë¾ÎªSTM32ÏµÁÐÎ¢¿ØÖÆÆ÷ÍË³öµÄÒ»¸öÈí¼þ¿ª·¢¿â HAL¿âµÄÄ¿µÄÊ
       - 16Î»£º Ã¿´Î´«Êä2×Ö½Ú
   - Êý¾ÝÖ¡Ë³Ðò£ºÃ¿´ÎSPIÊý¾Ý´«ÊäÊ± Êý¾ÝÖ¡´«ÊäµÄÊ×Î»ÊÇ×î¸ßÎ»»¹ÊÇ×îµÍÎ»
     - ¸ßÎ»ÓÅÏÈ£¨MSB£©¡¢µÍÎ»ÓÅÏÈ£¨LSB£©
-    ![Êý¾ÝÖ¡Ë³Ðò](/picture/75.jpeg)
+    ![Êý¾ÝÖ¡Ë³Ðò](./picture/75.jpeg)
   - Ê±ÖÓ¼«ÐÔ£¨CPOL£©¡¢Ê±ÖÓÏàÎ»£¨CPHA£©
   - Æ¬Ñ¡ÐÅºÅ NSS¹ÜÀíSPIÍ¨ÐÅÖÐ¿ØÖÆ´ÓÉè±¸Ñ¡ÔñµÄ·½Ê½
     - Èí¼þ¹ÜÀíÄ£Ê½£¨ÐèÒªÁé»î¿ØÖÆÆ¬Ñ¡ÐÅºÅµÄ³¡ºÏ£©
@@ -419,11 +419,11 @@ HAL¿â£º¼´Ó²¼þ³éÏó²ã ÊÇST¹«Ë¾ÎªSTM32ÏµÁÐÎ¢¿ØÖÆÆ÷ÍË³öµÄÒ»¸öÈí¼þ¿ª·¢¿â HAL¿âµÄÄ¿µÄÊ
       - NSSÐÅºÅÓÉÓ²¼þ×Ô¶¯¿ØÖÆ
       - ×¡Éè±¸Í¨¹ýÀ­µÍNSSÒý½ÅÀ´Ñ¡Ôñ´ÓÉè±¸ Êý¾Ý´«Êä×Ô¶¯¿ªÊ¼ºÍ½áÊø 
     - SPI²¨ÌØÂÊ SPIÊý¾Ý´«ÊäËÙÂÊ
-    ![¼ÆËã¹«Ê½](/picture/76.jpeg)
+    ![¼ÆËã¹«Ê½](./picture/76.jpeg)
   - Ê¹ÓÃ `HAL_SPI_TransmitReceive()` º¯Êý ¿ÉÍ¬Ê±·¢ËÍºÍ½ÓÊÕÊý¾Ý 
 
 ### ³£ÓÃÍ¨ÐÅÐ­Òé¶Ô±È
-![³£ÓÃÍ¨ÐÅÐ­Òé¶Ô±È](/picture/66.jpeg)
+![³£ÓÃÍ¨ÐÅÐ­Òé¶Ô±È](./picture/66.jpeg)
 
 ### ¶¨Ê±Æ÷
 - ÒÔF103ÎªÀý
@@ -433,17 +433,17 @@ HAL¿â£º¼´Ó²¼þ³éÏó²ã ÊÇST¹«Ë¾ÎªSTM32ÏµÁÐÎ¢¿ØÖÆÆ÷ÍË³öµÄÒ»¸öÈí¼þ¿ª·¢¿â HAL¿âµÄÄ¿µÄÊ
   - Àý³ÌµÄÐ¾Æ¬Ö»ÓÐ£ºTIM1 ¡¢ TIM2¡¢  TIM3¡¢ TIM4
 - Ê±»ùµ¥Ôª
   - ¶¨Ê±Æ÷µÄ±¾ÖÊ¾ÍÊÇ¼ÆÊýÆ÷
-  ![¶¨Ê±Æ÷µÄ¼ÆËã](/picture/77.jpeg) 
+  ![¶¨Ê±Æ÷µÄ¼ÆËã](./picture/77.jpeg) 
   - Ê±»ùµ¥ÔªÓÉ£º¼ÆÊýÆ÷¡¢Ô¤·ÖÆµÆ÷¡¢×Ô¶¯ÖØ×°ÔØ¼Ä´æÆ÷¹¹³É£¨16Î»£©
   ![¼ÓÈëÔ¤·ÖÆµÆ÷]()
-  ![µ¥´Î×î´ó¶¨Ê±Ê±¼ä¼ÆËã](/picture/78.jpeg)
-  ![¶¨Ê±1s](/picture/79.jpeg) 
-  ![ ](/picture/80.jpeg)
+  ![µ¥´Î×î´ó¶¨Ê±Ê±¼ä¼ÆËã](./picture/78.jpeg)
+  ![¶¨Ê±1s](./picture/79.jpeg) 
+  ![ ](./picture/80.jpeg)
 - ÊäÈë²¶»ñ
 - Êä³ö±È½Ï
   - **PWMÂö³å¿í¶Èµ÷ÖÆ** ÖÜÆÚ¹Ì¶¨ Õ¼¿Õ±È¿Éµ÷
     - Õ¼¿Õ±È = ¸ßµçÆ½/ÖÜÆÚ 
-    ![PWMÕ¼¿Õ±È](/picture/81.jpeg)
+    ![PWMÕ¼¿Õ±È](./picture/81.jpeg)
 
 ### CAN
 - CAN £º Ò»ÖÖ¶àÖ÷»ú¡¢¸ß¿É¿¿ÐÔµÄ¿ØÖÆÆ÷**¾ÖÓòÍø×ÜÏß** 
@@ -457,17 +457,17 @@ HAL¿â£º¼´Ó²¼þ³éÏó²ã ÊÇST¹«Ë¾ÎªSTM32ÏµÁÐÎ¢¿ØÖÆÆ÷ÍË³öµÄÒ»¸öÈí¼þ¿ª·¢¿â HAL¿âµÄÄ¿µÄÊ
     - Í¨ÐÅËÙÂÊ£º10kbps¡«1Mbps
   - Ã¿¸öÉè±¸¶¼Í¨¹ýCANÊÕ·¢Æ÷Á¬½ÓÖÁCAN×ÜÏß
   - CANÊÕ·¢Æ÷µÄ×÷ÓÃ£ºÐÅºÅ×ª»»¡¢Êý¾Ý²ÉÑù¡¢Êý¾ÝÊä³öµÈ
-  ![CAN×ÜÏßµÈÐ­Òé±ê×¼](/picture/82.jpeg)
+  ![CAN×ÜÏßµÈÐ­Òé±ê×¼](./picture/82.jpeg)
   - ¸ßËÙCANÓ²¼þÁ¬½Ó
-    ![¸ßËÙCANÓ²¼þÁ¬½Ó](/picture/83.jpeg)
+    ![¸ßËÙCANÓ²¼þÁ¬½Ó](./picture/83.jpeg)
     - CAN¿ØÖÆÆ÷µÄTX/RXÁ¬½ÓÖÁÊÕ·¢Æ÷TX/RX ÊÕ·¢Æ÷µÄCAN_H/L¶ÔÓ¦Á¬½ÓÖÁ×ÜÏßH/L
     - Á½¶ËÌí¼Ó120Å·µÄÖÕ¶Ëµç×è ÓÃÓÚ×è¿¹Æ¥Åä ÒÔ¼õÉÙ»Ø²¨·´Éä
   - ¸ßËÙCANµçÆ½±ê×¼
     - ²î·ÖÐÅºÅ£ºÁ½ÏßµçÑ¹²î
-    ![µçÆ½±ê×¼](/picture/84.jpeg)
+    ![µçÆ½±ê×¼](./picture/84.jpeg)
   - CANÐ­Òé
     - **Êý¾ÝÖ¡** ÓÃÓÚ´«ÊäÊµ¼ÊÊý¾ÝµÄÖ¡£¨¹ã²¥Ê½£©£¬¸ñÊ½£º±ê×¼Ö¡£¨11Î»£©¡¢À©Õ¹Ö¡£¨29Î»£©£¨IDÎ»Êý²»Í¬£© 
-    ![Êý¾ÝÖ¡](/picture/85.jpeg) 
+    ![Êý¾ÝÖ¡](./picture/85.jpeg) 
       - ÆðÊ¼Î» SOF£º±êÖ¾Ö¡¿ªÊ¼ Ê¼ÖÕÎª**ÏÔÐÔÎ»£¨0£©**
       - ÏûÏ¢ID£ºÏûÏ¢ÀàÐÍ ¡¢ÓÅÏÈ¼¶Ö¸¶¨¡¢ÖµÔ½Ð¡Ô½¸ß
       - RTR£ºÊý¾ÝÖ¡£¨¹Ì¶¨Îª0£© Ò£¿ØÖ¡£¨¹Ì¶¨Îª0£© 
@@ -481,13 +481,13 @@ HAL¿â£º¼´Ó²¼þ³éÏó²ã ÊÇST¹«Ë¾ÎªSTM32ÏµÁÐÎ¢¿ØÖÆÆ÷ÍË³öµÄÒ»¸öÈí¼þ¿ª·¢¿â HAL¿âµÄÄ¿µÄÊ
       - CRC/ACK½ç¶¨·û£ºÎªÓ¦´ðÇ°ºóÁôÏÂ³ä×ãÊ±¼ä È·±£Êý¾ÝÕýÈ·½âÎö
       - EOF£ºÖ¡½áÊø£¨7¸ö1£©
     - Ò£¿ØÖ¡£¨ÇëÇóÊ½£©£ºÓÃÓÚÇëÇóÊý¾Ý ¸ñÊ½£º±ê×¼Ö¡¡¢À©Õ¹Ö¡
-      ![Ò£¿ØÖ¡](/picture/86.jpeg) 
+      ![Ò£¿ØÖ¡](./picture/86.jpeg) 
     - ´íÎóÖ¡
-    ![´íÎóÖ¡](/picture/87.jpeg) 
+    ![´íÎóÖ¡](./picture/87.jpeg) 
     - ¹ýÔØÖ¡£º
-    ![¹ýÔØÖ¡](/picture/88.jpeg)
+    ![¹ýÔØÖ¡](./picture/88.jpeg)
     - Ö¡¼ä¸ô£ºÁ½¸öÁ¬ÐøCANÖ¡Ö®¼äµÄÊ±¼ä¼ä¸ô 
-    ![Ö¡¼ä¸ô](/picture/89.jpeg)
+    ![Ö¡¼ä¸ô](./picture/89.jpeg)
   - CAN²¨ÌØÂÊ¼°Î»Í¬²½
     - CAN×ÜÏßµÄ²¨ÌØÂÊ£ºÃ¿Ãë´«ÊäµÄÎ»Êý 
       - CANÊôÓÚÒì²½Í¨ÐÅ Ã»ÓÐÊ±ÖÓÏß  Éè±¸Ö®¼äÐèÉèÖÃÏàÍ¬²¨ÌØÂÊ½øÐÐÍ¨ÐÅ 125K ¡« 1Mbps
