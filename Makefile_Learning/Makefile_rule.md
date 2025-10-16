@@ -1,6 +1,10 @@
 
 ### Makefile rule
 
+- Linux下环境搭建：(ubuntu)
+  - sudo apt install gcc g++ make	
+  - make --version	查看make的版本	
+
 - Makefile 默认文件名："GNUmakefile" 或 "makefile" 或 `Makefile`(**常用**)
     - 也可使用别的文件名书写makefile
       - 指定特定的makefile 使用： make -f Make.Linux 或 make --file Makefile.Win32
@@ -1138,9 +1142,7 @@
 
 ---
 ---
-Linux下环境搭建：(ubuntu)
-        sudo apt install gcc g++ make	
-        make --version	查看make的版本	
+
 
 Makefile基础知识：
                 最简单的Makefile

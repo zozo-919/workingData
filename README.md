@@ -135,8 +135,8 @@ flowchart LR
             95 --> 170[Key-controlled_buzzer_module/    按键控制蜂鸣器模块]
 
         92 --> 96[ADC/]
-            96 -->171[Demonstration_of_ADC_Function/   模拟数字转换器功能演示]
-            96 -->172[Single_channel_acquistion_experiment_of_ADC   模拟数字转换器的单通道采集实验]
+            96 -->171[Demonstration_of_ADC_Function/   ADC功能演示]
+            96 -->172[Single_channel_acquistion_experiment_of_ADC   ADC单通道采集实验]
         
         92 --> 97[DMA/]
             97 --> 173[Demonstration_of_DMA_Function unused DMA/  DMA功能演示-没启用DMA]
